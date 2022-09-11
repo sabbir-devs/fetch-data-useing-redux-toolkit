@@ -1,3 +1,18 @@
 .App {
   text-align: center;
 }
+
+section{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+article{
+  margin: 20px;
+  padding: 20px;
+  border: 1.5px solid yellowgreen;
+  background: blueviolet;
+  color: #fff;
+  border-radius: 3px;
+}
